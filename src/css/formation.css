@@ -1,0 +1,28 @@
+.sectionFormation {
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+}
+
+.formation{
+    position:relative;
+    border-radius: 10px ;
+    background-color: #f2aea6;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 20px);
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.formation-title{
+    font-weight: 700;
+}
+
+.poste{
+    font-style:italic;
+}
+
+.description, li{
+    color:#7d7a7b;
+}

@@ -1,0 +1,43 @@
+.path {
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+}
+
+.step {
+    position: relative;
+    width: calc(100% - 20px);
+    margin-left: 20px;
+    background: #ecf0f1;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.step::before {
+    content: "";
+    height: calc(100% + 20px);
+    width: 5px;
+    background: #e3ecec;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+}
+
+.step::after {
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #e3ecec;
+    position: absolute;
+    top:-10px;
+    left: -25px;
+}
+
+.step .step-title {
+    font-weight: 700
+}
